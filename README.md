@@ -71,8 +71,9 @@ Eclipse
 
 9. Run Spring Boot Application
 	Run the Spring boot application with the main class
+	DemoApplication.java file
 
-10. Demo
+11. Demo
 	Once the Spring boot application is up and running then use the below URL to access this application:
 	URL: http://localhost:8080/customers
 
