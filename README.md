@@ -35,11 +35,13 @@ Eclipse
 
 3. Create Student JPA Entity-
 	Let's create a Customer JPA entity under the entity package and add the  content to it
+	Location- com.example.demo.entity.Customer
 
-4. Create JPA CustomerRepository-
+5. Create JPA CustomerRepository-
 	Let's create a CustomerRepository interface under the repository package and add the content it.
+	Location- com.example.demo.repository.CustomerRepository
 
-5. Configure MySQL Database-
+6. Configure MySQL Database-
 	Before configuring the MySQL database configuration in our Spring boot project, first, create a database named customer in MySQL workbench:
 	create database customer;
 	
@@ -57,21 +59,24 @@ Eclipse
 6.Creating Service Layer-
 	CustomerService Interface
 	Let's create a CustomerService interface under the service package and add the  content to it
+ 	location-com.example.demo.service.CustomerService
 
-	-CustomerServiceImpl Class-
-		Let's create a new package called impl inside the service package. Let's create class CustomerServiceImpl  and add the content to it:
+CustomerServiceImpl Class-
+	Let's create a new package called impl inside the service package. Let's create class CustomerServiceImpl  and add the content to it
+  	Location-com.example.demo.service.CustomerServiceImpl
 	
 7. Controller Layer-
 	Let's create a CustomerController class and add the content to it
+	Location-com.example.demo.controller.CustomerController
 
-8. View Layer
+9. View Layer
 	-resources/templates/customer.html
 	-resources/templates/CreateCustomerstudent.html
 	-resources/templates/EditCustomer.html
 
-9. Run Spring Boot Application
+10. Run Spring Boot Application
 	Run the Spring boot application with the main class
-	DemoApplication.java file
+	Location- DemoApplication.java file
 
 11. Demo
 	Once the Spring boot application is up and running then use the below URL to access this application:
