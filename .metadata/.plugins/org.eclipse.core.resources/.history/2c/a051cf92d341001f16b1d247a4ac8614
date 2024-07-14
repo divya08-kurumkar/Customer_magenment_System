@@ -1,0 +1,40 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.entity.Customer;
+import com.example.demo.repository.CustomerRepository;
+
+@SpringBootApplication
+public class DemoApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+	
+	@Autowired
+	private CustomerRepository customerRepository;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		
+//		 Customer customer1 = new Customer("Pranav", "Ladkat","Avadhoot Nagar", "Baramati", "Maharashtra", "pranav@gmail.com","9172765017");
+//		 customerRepository.save(customer1);
+//		
+//		 Customer customer2 = new Customer("Divya", "Kurumkar","Avadhoot Nagar", "Baramati", "Maharashtra", "divya@gmail.com","9172765017");
+//		 customerRepository.save(customer2);
+//		 
+//		 Customer customer3 = new Customer("Ketan", "Ladkat","Avadhoot Nagar", "Baramati", "Maharashtra", "ketan@gmail.com","9172765017");
+//		 customerRepository.save(customer3);
+//		 
+//		 Customer customer4 = new Customer("Rohan", "Kurumkar","Varvand", "Daund", "Maharashtra", "pranav@gmail.com","9172765017");
+//		 customerRepository.save(customer4);
+		 
+		
+	}
+
+}
+
